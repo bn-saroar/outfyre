@@ -1,0 +1,75 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fefaf5;
+        }
+
+        .hero {
+            background: #f3e7da;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #3e2c1c;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #7a6a58;
+        }
+
+        .btn-shop {
+            background-color: #8b5e3c;
+            color: #fff;
+            border-radius: 8px;
+        }
+
+        .category-icons .card {
+            border: none;
+            background-color: #f8eadf;
+            padding: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .category-icons .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(139, 94, 60, 0.2);
+        }
+
+        .featured-products .card img {
+            max-height: 200px;
+            object-fit: contain;
+        }
+
+        .discount-banner {
+            background-color: #f3e7da;
+            padding: 20px;
+            text-align: center;
+            margin: 30px 0;
+            font-size: 1.2rem;
+            color: #5a4a3d;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #f2e6d8;
+            padding: 40px 20px;
+        }
+
+        footer h5 {
+            color: #5a4a3d;
+        }
+
+        footer a {
+            color: #5a4a3d;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+
